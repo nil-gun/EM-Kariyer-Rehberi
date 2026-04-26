@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+import sklearn
 
 # 1. Kaydedilen Dosyaları Yükle
 model = joblib.load('en_iyi_model.pkl')
